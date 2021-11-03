@@ -1,0 +1,23 @@
+﻿<Window x:Class="SimpleCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="450">
+    <Viewbox>
+        <Grid Height="400">
+            <Button x:Name="btnLogOut" Content="Log out" HorizontalAlignment="Right" VerticalAlignment="Top" Width="85" Margin="0,21,27,0"/>
+            <Button x:Name="btnPlus" Content="+" HorizontalAlignment="Center" VerticalAlignment="Top" Width="46" Margin="55,161,241,0" Click="btnPlus_Click"/>
+            <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Center" VerticalAlignment="Top" Width="46" Margin="117,161,179,0" Click="btnMinus_Click"/>
+            <Button x:Name="btnMal" Content="x" HorizontalAlignment="Center" VerticalAlignment="Top" Width="46" Margin="178,161,118,0" Click="btnMal_Click"/>
+            <Button x:Name="btnDurch" Content="/" HorizontalAlignment="Center" VerticalAlignment="Top" Width="46" Margin="241,161,55,0" Click="btnDurch_Click"/>
+            <Button x:Name="btnAbspeichern" Content="Abspeichern" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="114" Margin="0,0,0,101" IsEnabled="False"/>
+            <TextBox x:Name="txtZahl1" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Zahl1" VerticalAlignment="Top" Width="120" Margin="111,64,111,0" PreviewTextInput="txtZahl1_PreviewTextInput"/>
+            <TextBox x:Name="txtZahl2" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Zahl2" VerticalAlignment="Top" Width="120" Margin="111,113,111,0" PreviewTextInput="txtZahl2_PreviewTextInput"/>
+            <TextBox x:Name="txtResultat" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" Text="Resultat" VerticalAlignment="Top" Width="120" Margin="111,218,111,0" IsEnabled="False"/>
+            <!--<Label x:Name="lblHistory" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Height="120" Width="186" BorderBrush="Black" BorderThickness="1" Margin="78,265,78,0"/>-->
+        </Grid>
+    </Viewbox>
+</Window>
