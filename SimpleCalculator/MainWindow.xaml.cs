@@ -29,25 +29,25 @@ namespace SimpleCalculator
 
         private void btnPlus_Click(object sender, RoutedEventArgs e)
         {
-            txtResultat.Text = (Calculate.calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.plus)).ToString();
+            txtResultat.Text = (Calculate.Calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.plus)).ToString();
             btnAbspeichern.IsEnabled = true;
         }
 
         private void btnMinus_Click(object sender, RoutedEventArgs e)
         {
-            txtResultat.Text = (Calculate.calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.minus)).ToString();
+            txtResultat.Text = (Calculate.Calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.minus)).ToString();
             btnAbspeichern.IsEnabled = true;
         }
 
         private void btnMal_Click(object sender, RoutedEventArgs e)
         {
-            txtResultat.Text = (Calculate.calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.mal)).ToString();
+            txtResultat.Text = (Calculate.Calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.mal)).ToString();
             btnAbspeichern.IsEnabled = true;
         }
 
         private void btnDurch_Click(object sender, RoutedEventArgs e)
         {
-            txtResultat.Text = (Calculate.calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.durch)).ToString();
+            txtResultat.Text = (Calculate.Calc(Convert.ToInt32(txtZahl1.Text), Convert.ToInt32(txtZahl2.Text), OperatorEnum.durch)).ToString();
             btnAbspeichern.IsEnabled = true;
         }
 

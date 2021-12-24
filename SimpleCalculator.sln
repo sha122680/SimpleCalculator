@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{A55580CB-624F-4E6D-B92A-DD0E96653D1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E45429E6-F85C-44BB-9BDA-7901F247E719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{84A76119-32A2-4C3E-AAE3-AFB1D269622A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A55580CB-624F-4E6D-B92A-DD0E96653D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55580CB-624F-4E6D-B92A-DD0E96653D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55580CB-624F-4E6D-B92A-DD0E96653D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45429E6-F85C-44BB-9BDA-7901F247E719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45429E6-F85C-44BB-9BDA-7901F247E719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45429E6-F85C-44BB-9BDA-7901F247E719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45429E6-F85C-44BB-9BDA-7901F247E719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A76119-32A2-4C3E-AAE3-AFB1D269622A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A76119-32A2-4C3E-AAE3-AFB1D269622A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A76119-32A2-4C3E-AAE3-AFB1D269622A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A76119-32A2-4C3E-AAE3-AFB1D269622A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
